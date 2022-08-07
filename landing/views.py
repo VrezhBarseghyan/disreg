@@ -6,6 +6,7 @@ from .forms import *
 def index(request):
     form = EmailForm()
     form2 = QuestionForm()
+    form3 = "dasda"
 
     if request.method == "POST":
         form = EmailForm(request.POST)
